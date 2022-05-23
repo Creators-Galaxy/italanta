@@ -1,0 +1,85 @@
+{
+  "$schema": "..\\..\\node_modules\\nx\\schemas\\project-schema.json",
+  "sourceRoot": "libs/features/src",
+  "projectType": "library",
+  "targets": {
+    "analyze": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter analyze",
+        "cwd": "libs/features"
+      }
+    },
+    "clean": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter clean",
+        "cwd": "libs/features"
+      }
+    },
+    "format": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter format libs/features/*",
+        "cwd": "libs/features"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter test",
+        "cwd": "libs/features"
+      }
+    },
+    "buildAar": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build aar",
+        "cwd": "libs/features"
+      }
+    },
+    "buildApk": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build apk",
+        "cwd": "libs/features"
+      }
+    },
+    "buildAppbundle": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build appbundle",
+        "cwd": "libs/features"
+      }
+    },
+    "buildBundle": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build bundle",
+        "cwd": "libs/features"
+      }
+    },
+    "buildIos": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ios",
+        "cwd": "libs/features"
+      }
+    },
+    "buildIosFramework": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ios-framework",
+        "cwd": "libs/features"
+      }
+    },
+    "buildIpa": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ipa",
+        "cwd": "libs/features"
+      }
+    }
+  },
+  "tags": []
+}

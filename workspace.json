@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "city-scapes": "apps/city-scapes",
+    "elements": "libs/elements",
+    "features": "libs/features",
+    "model": "libs/model",
+    "theming": "libs/theming",
+    "utils": "libs/utils",
+    "state": "libs/state"
+  }
+}

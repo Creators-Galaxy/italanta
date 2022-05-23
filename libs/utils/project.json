@@ -1,0 +1,85 @@
+{
+  "$schema": "..\\..\\node_modules\\nx\\schemas\\project-schema.json",
+  "sourceRoot": "libs/utils/src",
+  "projectType": "library",
+  "targets": {
+    "analyze": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter analyze",
+        "cwd": "libs/utils"
+      }
+    },
+    "clean": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter clean",
+        "cwd": "libs/utils"
+      }
+    },
+    "format": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter format libs/utils/*",
+        "cwd": "libs/utils"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter test",
+        "cwd": "libs/utils"
+      }
+    },
+    "buildAar": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build aar",
+        "cwd": "libs/utils"
+      }
+    },
+    "buildApk": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build apk",
+        "cwd": "libs/utils"
+      }
+    },
+    "buildAppbundle": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build appbundle",
+        "cwd": "libs/utils"
+      }
+    },
+    "buildBundle": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build bundle",
+        "cwd": "libs/utils"
+      }
+    },
+    "buildIos": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ios",
+        "cwd": "libs/utils"
+      }
+    },
+    "buildIosFramework": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ios-framework",
+        "cwd": "libs/utils"
+      }
+    },
+    "buildIpa": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ipa",
+        "cwd": "libs/utils"
+      }
+    }
+  },
+  "tags": []
+}

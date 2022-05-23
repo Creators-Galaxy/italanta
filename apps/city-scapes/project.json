@@ -1,0 +1,127 @@
+{
+  "$schema": "..\\..\\node_modules\\nx\\schemas\\project-schema.json",
+  "sourceRoot": "apps/city-scapes/src",
+  "projectType": "application",
+  "targets": {
+    "analyze": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter analyze",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "clean": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter clean",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "format": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter format apps/city-scapes/*",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter test",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "assemble": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter assemble",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "attach": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter attach",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "drive": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter drive",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "genL10n": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter gen-l10n",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "install": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter install",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "run": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter run",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "buildAar": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build aar",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "buildApk": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build apk",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "buildAppbundle": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build appbundle",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "buildBundle": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build bundle",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "buildIos": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ios",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "buildIosFramework": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ios-framework",
+        "cwd": "apps/city-scapes"
+      }
+    },
+    "buildIpa": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "flutter build ipa",
+        "cwd": "apps/city-scapes"
+      }
+    }
+  },
+  "tags": []
+}

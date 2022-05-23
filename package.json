@@ -1,0 +1,19 @@
+{
+  "name": "italanta",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test"
+  },
+  "private": true,
+  "devDependencies": {
+    "@nrwl/cli": "14.1.7",
+    "@nrwl/workspace": "14.1.7",
+    "@nxrocks/nx-flutter": "^3.0.2",
+    "nx": "14.1.7",
+    "prettier": "^2.5.1",
+    "typescript": "~4.6.2"
+  }
+}

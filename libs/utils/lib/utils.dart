@@ -1,7 +1,7 @@
 library utils;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'constants/constants.dart';
+export 'extensions/extensions.dart';
+export 'enums/enums.dart';
+export 'locales/locales.dart';
+export 'helpers/helpers.dart';

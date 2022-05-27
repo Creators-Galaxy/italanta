@@ -11,6 +11,17 @@ dependencies:
   flutter:
     sdk: flutter
 
+
+  utils:
+    path: '../../libs/utils'
+  model:
+    path: '../../libs/model'
+
+
+  lottie: ^1.3.0
+
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

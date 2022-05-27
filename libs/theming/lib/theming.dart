@@ -1,7 +1,5 @@
 library theming;
+import 'package:google_fonts/google_fonts.dart';
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'theme/theme_bloc.dart';
+export 'misc/misc.dart';

@@ -10,6 +10,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  model:
+    path: '../../libs/model'
+  utils:
+    path: '../../libs/utils'
+
+  shared_preferences: ^2.0.15
+  # For bloc
+  bloc: ^8.0.3
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  http: ^0.13.4
+  # End bloc
 
 dev_dependencies:
   flutter_test:

@@ -1,7 +1,5 @@
 library state;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'city_state/city_state.dart';
+export 'prefs/preferences.dart';
+export 'observer/observer.dart';

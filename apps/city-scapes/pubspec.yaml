@@ -29,6 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.2.1
 
   # Local dependencies(libs)
   features:
@@ -47,6 +48,19 @@ dependencies:
     path: '../../libs/utils'
   # End of local dependencies
 
+  lottie: ^1.3.0
+  google_fonts: ^3.0.1
+  easy_localization: ^3.0.1
+  font_awesome_flutter: ^10.1.0
+  shared_preferences: ^2.0.15
+
+  # For bloc
+  bloc: ^8.0.3
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  http: ^0.13.4
+  # End bloc
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
@@ -54,6 +68,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_logo.png"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -77,7 +98,13 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
-
+  assets:
+    - assets/images/
+    - assets/json/
+    - assets/lottie/
+    - assets/translations/
+    - assets/google_fonts/emily/
+    - assets/google_fonts/open_sans/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
@@ -89,6 +116,11 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+
+    - family: CityScapes
+    - fonts:
+        - asset: assets/fonts/CityScapes.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -101,5 +133,16 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_native_splash:
+  color: "#eff0ed"
+  image: assets/images/splash_logo.png
+  android_12:
+    image: assets/images/splash_logo.png
+    color: "#eff0ed"
+    icon_background_color: "#ffffff"
+
+
